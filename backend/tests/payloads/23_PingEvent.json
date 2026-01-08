@@ -1,0 +1,63 @@
+{
+  "zen": "Keep it logically awesome.",
+  "hook_id": 109948940,
+  "hook": {
+    "type": "Repository",
+    "id": 109948940,
+    "name": "web",
+    "active": true,
+    "events": [
+      "push",
+      "pull_request"
+    ],
+    "config": {
+      "content_type": "json",
+      "url": "https://example.com/webhooks",
+      "insecure_ssl": "0"
+    },
+    "updated_at": "2023-03-17T15:42:05Z",
+    "created_at": "2023-03-17T15:42:05Z"
+  },
+  "repository": {
+    "id": 186853002,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxODY4NTMwMDI=",
+    "name": "Hello-World",
+    "full_name": "Codertocat/Hello-World",
+    "private": false,
+    "owner": {
+      "login": "Codertocat",
+      "id": 21031067,
+      "node_id": "MDQ6VXNlcjIxMDMxMDY3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21031067?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Codertocat",
+      "html_url": "https://github.com/Codertocat",
+      "type": "User",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Codertocat/Hello-World",
+    "url": "https://api.github.com/repos/Codertocat/Hello-World",
+    "fork": false,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "octocat",
+    "id": 1,
+    "node_id": "MDQ6VXNlcjE=",
+    "avatar_url": "https://github.com/images/error/octocat_happy.gif",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/octocat",
+    "html_url": "https://github.com/octocat",
+    "followers_url": "https://api.github.com/users/octocat/followers",
+    "following_url": "https://api.github.com/users/octocat/following{/other_user}",
+    "gists_url": "https://api.github.com/users/octocat/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/octocat/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/octocat/subscriptions",
+    "organizations_url": "https://api.github.com/users/octocat/orgs",
+    "repos_url": "https://api.github.com/users/octocat/repos",
+    "events_url": "https://api.github.com/users/octocat/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/octocat/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "action": "created",
+  "key": {
+    "id": 100,
+    "key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCqLw...",
+    "url": "https://api.github.com/repos/Codertocat/Hello-World/keys/100",
+    "title": "Production Deploy Key",
+    "verified": true,
+    "created_at": "2023-03-17T15:42:05Z",
+    "read_only": false
+  },
+  "repository": {
+    "id": 186853002,
+    "name": "Hello-World",
+    "full_name": "Codertocat/Hello-World",
+    "private": false,
+    "owner": {
+      "login": "Codertocat",
+      "id": 21031067,
+      "type": "User"
+    }
+  },
+  "sender": {
+    "login": "Codertocat",
+    "id": 21031067,
+    "type": "User"
+  }
+}

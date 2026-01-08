@@ -1,0 +1,98 @@
+{
+  "action": "created",
+  "alert": {
+    "number": 1,
+    "state": "open",
+    "dependency": {
+      "package": {
+        "ecosystem": "npm",
+        "name": "lodash"
+      },
+      "manifest_path": "package-lock.json",
+      "scope": "runtime"
+    },
+    "security_advisory": {
+      "ghsa_id": "GHSA-xxxx-xxxx-xxxx",
+      "cve_id": "CVE-2021-12345",
+      "summary": "Prototype Pollution in lodash",
+      "description": "Versions of lodash before 4.17.21 are vulnerable to prototype pollution.",
+      "severity": "high",
+      "identifiers": [
+        {
+          "type": "GHSA",
+          "value": "GHSA-xxxx-xxxx-xxxx"
+        },
+        {
+          "type": "CVE",
+          "value": "CVE-2021-12345"
+        }
+      ],
+      "references": [],
+      "published_at": "2021-02-15T00:00:00Z",
+      "updated_at": "2021-02-15T00:00:00Z",
+      "withdrawn_at": null
+    },
+    "security_vulnerability": {
+      "package": {
+        "ecosystem": "npm",
+        "name": "lodash"
+      },
+      "severity": "high",
+      "vulnerable_version_range": "< 4.17.21",
+      "first_patched_version": {
+        "identifier": "4.17.21"
+      }
+    },
+    "url": "https://api.github.com/repos/Codertocat/Hello-World/dependabot/alerts/1",
+    "html_url": "https://github.com/Codertocat/Hello-World/security/dependabot/1",
+    "created_at": "2023-03-17T15:42:05Z",
+    "updated_at": "2023-03-17T15:42:05Z",
+    "dismissed_at": null,
+    "dismissed_by": null,
+    "dismissed_reason": null,
+    "dismissed_comment": null,
+    "fixed_at": null
+  },
+  "repository": {
+    "id": 186853002,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxODY4NTMwMDI=",
+    "name": "Hello-World",
+    "full_name": "Codertocat/Hello-World",
+    "private": false,
+    "owner": {
+      "login": "Codertocat",
+      "id": 21031067,
+      "node_id": "MDQ6VXNlcjIxMDMxMDY3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21031067?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Codertocat",
+      "html_url": "https://github.com/Codertocat",
+      "type": "User",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Codertocat/Hello-World",
+    "url": "https://api.github.com/repos/Codertocat/Hello-World",
+    "fork": false,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "dependabot[bot]",
+    "id": 49699333,
+    "node_id": "MDM6Qm90NDk2OTkzMzM=",
+    "avatar_url": "https://avatars.githubusercontent.com/in/29110?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dependabot%5Bbot%5D",
+    "html_url": "https://github.com/apps/dependabot",
+    "followers_url": "https://api.github.com/users/dependabot%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/dependabot%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dependabot%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dependabot%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dependabot%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/dependabot%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/dependabot%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/dependabot%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dependabot%5Bbot%5D/received_events",
+    "type": "Bot",
+    "site_admin": false
+  }
+}

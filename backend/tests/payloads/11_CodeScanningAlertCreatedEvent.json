@@ -1,0 +1,83 @@
+{
+  "action": "created",
+  "alert": {
+    "number": 1,
+    "created_at": "2023-03-17T15:42:05Z",
+    "url": "https://api.github.com/repos/Codertocat/Hello-World/code-scanning/alerts/1",
+    "html_url": "https://github.com/Codertocat/Hello-World/security/code-scanning/1",
+    "instances_url": "https://api.github.com/repos/Codertocat/Hello-World/code-scanning/alerts/1/instances",
+    "state": "open",
+    "dismissed_by": null,
+    "dismissed_at": null,
+    "dismissed_reason": null,
+    "rule": {
+      "id": "js/sql-injection",
+      "severity": "error",
+      "description": "SQL injection",
+      "name": "SQL injection",
+      "full_description": "Building a SQL query from user-controlled data allows SQL injection."
+    },
+    "tool": {
+      "name": "CodeQL",
+      "version": "2.11.6"
+    },
+    "most_recent_instance": {
+      "ref": "refs/heads/main",
+      "analysis_key": ".github/workflows/codeql-analysis.yml:analyze",
+      "environment": "{}",
+      "state": "open",
+      "commit_sha": "abcdef1234567890",
+      "location": {
+        "path": "app/controllers/users_controller.rb",
+        "start_line": 42,
+        "end_line": 42,
+        "start_column": 10,
+        "end_column": 50
+      }
+    }
+  },
+  "ref": "refs/heads/main",
+  "commit_oid": "abcdef1234567890",
+  "repository": {
+    "id": 186853002,
+    "node_id": "MDEwOlJlcG9zaXRvcnkxODY4NTMwMDI=",
+    "name": "Hello-World",
+    "full_name": "Codertocat/Hello-World",
+    "private": false,
+    "owner": {
+      "login": "Codertocat",
+      "id": 21031067,
+      "node_id": "MDQ6VXNlcjIxMDMxMDY3",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/21031067?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Codertocat",
+      "html_url": "https://github.com/Codertocat",
+      "type": "User",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/Codertocat/Hello-World",
+    "url": "https://api.github.com/repos/Codertocat/Hello-World",
+    "fork": false,
+    "default_branch": "master"
+  },
+  "sender": {
+    "login": "Codertocat",
+    "id": 21031067,
+    "node_id": "MDQ6VXNlcjIxMDMxMDY3",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/21031067?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Codertocat",
+    "html_url": "https://github.com/Codertocat",
+    "followers_url": "https://api.github.com/users/Codertocat/followers",
+    "following_url": "https://api.github.com/users/Codertocat/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Codertocat/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Codertocat/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Codertocat/subscriptions",
+    "organizations_url": "https://api.github.com/users/Codertocat/orgs",
+    "repos_url": "https://api.github.com/users/Codertocat/repos",
+    "events_url": "https://api.github.com/users/Codertocat/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Codertocat/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}
