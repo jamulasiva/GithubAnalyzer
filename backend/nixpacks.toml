@@ -1,0 +1,18 @@
+[providers]
+python = "3.11"
+
+[start]
+cmd = "./railway-start.sh"
+
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.11"
+PYTHONPATH = "/app"
+
+[phases.build]
+cmds = [
+    "pip install -r requirements.txt",
+    "chmod +x railway-start.sh"
+]
+
+[phases.install]
+cmds = ["mkdir -p logs"]
