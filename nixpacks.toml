@@ -1,0 +1,27 @@
+[providers]
+python = "3.11"
+
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.11"
+PYTHONPATH = "/app/backend"
+
+[phases.setup]
+nixPkgs = ["python311", "pip"]
+
+[phases.install]
+dependsOn = ["setup"]
+cmds = [
+    "cd backend",
+    "pip install -r requirements.txt"
+]
+
+[phases.build]
+dependsOn = ["install"] 
+cmds = [
+    "cd backend",
+    "chmod +x railway-start.sh",
+    "mkdir -p logs"
+]
+
+[start]
+cmd = "./start.sh"

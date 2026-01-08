@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Railway.com startup script for root directory deployment
+echo "🚀 Starting GitHub Analyzer Platform on Railway..."
+
+# Change to backend directory
+cd backend
+
+# Set Python path
+export PYTHONPATH=/app/backend
+
+# Create logs directory if it doesn't exist
+mkdir -p logs
+
+# Initialize database schema (Railway PostgreSQL)
+echo "📊 Initializing database..."
+python -c "
+import asyncio
+from app.core.database import init_database
+
+async def main():
+    try:
+        await init_database()
+        print('✅ Database initialized successfully')
+    except Exception as e:
+        print(f'⚠️ Database initialization error (may already exist): {e}')
+
+asyncio.run(main())
+"
+
+# Start the application
+echo "🎯 Starting FastAPI server..."
+exec uvicorn main:app --host 0.0.0.0 --port ${PORT:-8000} --workers 1

@@ -14,7 +14,7 @@
 2. Click "Start a New Project"
 3. Select "Deploy from GitHub repo"
 4. Choose your `jamulasiva/GithubAnalyzer` repository
-5. Select the `backend` folder as the root directory
+5. Railway will automatically detect the Python project and deploy from the root directory
 
 ### 2. Configure Environment Variables
 
